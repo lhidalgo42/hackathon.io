@@ -178,7 +178,8 @@ return [
         /*
          * External Service Providers
          */
-        SendPulse\SendPulseLaravel\SendPulseLaravelServiceProvider::class
+        Barryvdh\Cors\ServiceProvider::class,
+
     ],
 
     /*
@@ -226,8 +227,7 @@ return [
         'Storage' => Illuminate\Support\Facades\Storage::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class,
-        'SendPulse' => SendPulse\SendPulseLaravel\SendPulseFacade::class,
+        'View' => Illuminate\Support\Facades\View::class
 
     ],
 
