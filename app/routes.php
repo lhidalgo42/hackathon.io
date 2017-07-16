@@ -17,8 +17,4 @@ Route::get('/register','UsersController@create');
 Route::post('/api/auth/token','SessionsController@token');
 Route::post('/api/auth/login','SessionsController@ajaxStore');
 Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
-
-
-Route::group(array('before' => 'auth'), function() {
-    Route::get('/', ['as' => 'home', 'uses' => 'UsersController@index']);
-});
+Route::get('/', ['as' => 'home', 'uses' => 'UsersController@index']);
