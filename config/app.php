@@ -178,7 +178,6 @@ return [
         /*
          * External Service Providers
          */
-        Barryvdh\Cors\ServiceProvider::class,
 
     ],
 
@@ -227,8 +226,7 @@ return [
         'Storage' => Illuminate\Support\Facades\Storage::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class
-
+        'View' => Illuminate\Support\Facades\View::class,
     ],
 
 ];

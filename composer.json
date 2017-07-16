@@ -6,7 +6,6 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "barryvdh/laravel-cors": "^0.9.2",
         "fideloper/proxy": "~3.3",
         "gufy/pdftohtml-php": "~2",
         "laravel/framework": "5.5.*",

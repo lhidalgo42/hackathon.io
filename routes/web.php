@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('welcome');
 });
@@ -19,6 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::any('/api/auth/token','AuthController@token');
+Route::any('/api/auth/token', function () {
+    return csrf_field();
+});
 Route::any('/api/auth/login','AuthController@login');
 Route::any('/api/auth/register','AuthController@register');
