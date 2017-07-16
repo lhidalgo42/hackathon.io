@@ -219,7 +219,7 @@
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features3-o" data-rv-view="21" style="background-color: rgb(255, 255, 255);">
 
 
-    <h1 style="text-align: center;padding-top: 15px;">Nuestro Equipo</h1>
+    <h1 style="text-align: center;padding-top: 15px;">Quienes Somos</h1>
     <div class="mbr-cards-row row">
 
         <div class="mbr-cards-col col-xs-12 col-lg-4" style="padding-top: 80px; padding-bottom: 80px;">
