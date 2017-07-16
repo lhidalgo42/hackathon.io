@@ -33,6 +33,19 @@ class SessionsController extends \BaseController {
 
         return Redirect::route('home');
 	}
+    public function ajaxStore()
+    {
+        $remember = (Input::has('remember')) ? true : false;
+
+        $formData = Input::only('email', 'password');
+
+        $this->loginForm->validate($formData);
+
+        if ( ! Auth::attempt($formData, $remember))
+            return json_encode(array('status'=>'error'));
+
+        return json_encode(array('status'=>'ok'));
+    }
 	public function destroy(){
 		Auth::logout();
         Session::clear();
