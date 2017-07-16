@@ -19,6 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/api/auth/token','AuthController@token');
-Route::post('/api/auth/login','AuthController@login');
-Route::post('/api/auth/register','AuthController@register');
+Route::any('/api/auth/token','AuthController@token');
+Route::any('/api/auth/login','AuthController@login');
+Route::any('/api/auth/register','AuthController@register');
