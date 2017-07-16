@@ -21,7 +21,7 @@ class UsersController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		return View::make('auth.register');
 	}
 
 	/**
@@ -32,7 +32,7 @@ class UsersController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+        return Input::all();
 	}
 
 	/**

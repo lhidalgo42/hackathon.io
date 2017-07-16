@@ -13,6 +13,7 @@
 
 Route::get('/login', ['as' => 'login', 'uses' => 'SessionsController@create']);
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
+Route::get('/register','UsersController@create');
 Route::post('/api/auth/token','SessionsController@token');
 Route::post('/api/auth/login','SessionsController@ajaxStore');
 Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store', 'destroy']]);
