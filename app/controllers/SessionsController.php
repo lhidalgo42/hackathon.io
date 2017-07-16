@@ -38,5 +38,8 @@ class SessionsController extends \BaseController {
         Session::clear();
 		return Redirect::to('/login')->with('info', 'Gracias por su Visita.');
 	}
+	public function token(){
+	    return csrf_token();
+    }
 
 }
