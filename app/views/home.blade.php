@@ -114,15 +114,16 @@
     </div>
 
 </section>
-
+<h1 style="padding-top: 30px;position: absolute;z-index: 9999;left: 31.7%"><span style="color: white">Situación Ac</span><span style="color:#000000;">tual en Chile</span></h1>
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-f" data-rv-view="8" style="background-color: rgb(255, 255, 255);">
 
 
 
 
     <div class="mbr-cards-row row striped">
-        <h1 style="text-align: center;position: absolute;left: 30%;">Situacion Actual en Chile</h1>
+
         <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 80px; padding-bottom: 80px;">
+
             <div class="container">
                 <div class="card cart-block">
                     <div class="card-img"><a href="https://mobirise.com" class="etl-icon icon-flag mbr-iconfont mbr-iconfont-features2"></a></div>
@@ -189,7 +190,7 @@
                 </div><div class="col-xs-12 col-lg-4">
 
                     <div class="mbr-testimonial card">
-                        <div class="card-block"><p><strong>Historial Financiero</strong></p><p>Tener un historial con el comportamiento de tu situacion financiera&nbsp;</p></div>
+                        <div class="card-block"><p><strong>Historial Financiero</strong></p><p>Tener un historial con el comportamiento de tu situación financiera&nbsp;</p></div>
                         <div class="mbr-author card-footer">
 
 
